@@ -21,5 +21,5 @@ jobs:
         username: ${{ secrets.mspc-48}}  # You need to set this secret in your repository settings
         password: ${{ secrets.mind@123 }}  # You need to set this secret in your repository settings
         script: |
-          cd /var/www/html
+          cd /var/www/html/jenkins-test
           git pull
