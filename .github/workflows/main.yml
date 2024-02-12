@@ -21,5 +21,5 @@ jobs:
         username: ${{ secrets.mspc-48}}  # You need to set this secret in your repository settings
         password: ${{ secrets.mind@123 }}  # You need to set this secret in your repository settings
         script: |
-          cd /path/to/your/repository
+          cd /var/www/html
           git pull
