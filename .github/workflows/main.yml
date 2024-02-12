@@ -17,7 +17,7 @@ jobs:
     - name: SSH into server and pull latest changes
       uses: appleboy/ssh-action@master
       with:
-        host: ${{ secrets.SERVER_HOST }}  # You need to set this secret in your repository settings
+        host: ${{ secrets.192.168.1.76 }}  # You need to set this secret in your repository settings
         username: ${{ secrets.SERVER_USERNAME}}  # You need to set this secret in your repository settings
         password: ${{ secrets.SSH_PRIVATE_KEY }}  # You need to set this secret in your repository settings
         script: |
